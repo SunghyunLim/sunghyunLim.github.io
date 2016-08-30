@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "첫 글을 올립니다."
+date:   2016-08-30 18:06:10 +0900
+categories: jekyll update
+---
+이런저런 블로그를 찾아다니다가 여기까지 오게 되었다.
+
+코드는 잘 붙나?
+
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="egovframework-pmd-5.3.2"
+    xmlns="http://pmd.sourceforge.netruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.netruleset/2.0.0 http://pmd.sourceforge.netruleset_2_0_0.xsd">
+   <rule ref="rulesets/java/empty.xml/EmptyCatchBlock"/>
+   <rule ref="rulesets/java/empty.xml/EmptyFinallyBlock"/>
+   <rule ref="rulesets/java/empty.xml/EmptyIfStmt"/>
+   <rule ref="rulesets/java/empty.xml/EmptyStatementNotInLoop"/>
+   <rule ref="rulesets/java/empty.xml/EmptyTryBlock"/>
+   ...
+{% endhighlight %}
+
+그 외 다른 내용은 차근차근 봐야겠다.
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
